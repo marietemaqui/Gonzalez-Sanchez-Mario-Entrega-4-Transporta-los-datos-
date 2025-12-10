@@ -1,0 +1,32 @@
+{
+	"name": "Hoja de eventos 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 112874251129913,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite24"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 815011883566809,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				}
+			],
+			"sid": 553580603634410
+		}
+	],
+	"sid": 483580143911793
+}

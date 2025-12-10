@@ -341,7 +341,7 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 979285967966169,
+					"sid": 283453052605589,
 					"parameters": {
 						"layout": "Escena 3"
 					}
@@ -353,6 +353,19 @@
 					"parameters": {
 						"variable": "Puntos",
 						"value": "0"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 418256079868392,
+					"parameters": {
+						"object-to-create": "Sprite22",
+						"layer": "0",
+						"x": "0",
+						"y": "0",
+						"create-hierarchy": true,
+						"template-name": "\"\""
 					}
 				}
 			],
