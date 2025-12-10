@@ -1,0 +1,363 @@
+{
+	"name": "mario",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Puntos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 494516724158661
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 488569183899034,
+					"parameters": {
+						"object": "Sprite12"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 736707873606173,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "5"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Sprite3",
+					"sid": 960287449785960,
+					"parameters": {
+						"x": "Sprite2.X",
+						"y": "Sprite2.Y"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite3",
+					"sid": 382435811866620,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"sid": 586500178900677
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 378462116097117,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 816905077101528,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "5"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Sprite3",
+					"sid": 806458569102662,
+					"parameters": {
+						"x": "Sprite2.X",
+						"y": "Sprite2.Y"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite3",
+					"sid": 538588340133107,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"sid": 900071512498661
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 929023470614211,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 301194285103488
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 980788083860806,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 892431447436821
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 114110116936552,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 245465238655204
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 380215135408878,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 594262365116215,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "10"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Sprite3",
+					"sid": 642229843496948,
+					"parameters": {
+						"x": "Sprite2.X",
+						"y": "Sprite2.Y"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite3",
+					"sid": 144566722394117,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"sid": 586752299013233
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 485738840250087,
+					"parameters": {
+						"object": "Sprite6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 378043559640231,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "10"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Sprite3",
+					"sid": 782859601035309,
+					"parameters": {
+						"x": "Sprite2.X",
+						"y": "Sprite2.Y"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite3",
+					"sid": 888762504895210,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"sid": 570294924537826
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 469927718788748,
+					"parameters": {
+						"object": "Sprite5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 378071109061331,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "10"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Sprite3",
+					"sid": 789739547750204,
+					"parameters": {
+						"x": "Sprite2.X",
+						"y": "Sprite2.Y"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite3",
+					"sid": 262206201681968,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"sid": 983898890323974
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 289206740588226
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto",
+					"sid": 516390493965647,
+					"parameters": {
+						"text": "\"Puntos: \" & Puntos"
+					}
+				}
+			],
+			"sid": 533172158723126
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 804033837620632,
+					"parameters": {
+						"object": "Sprite11"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 624834722167687,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "5"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Sprite3",
+					"sid": 392005473573945,
+					"parameters": {
+						"x": "Sprite2.X",
+						"y": "Sprite2.Y"
+					}
+				},
+				{
+					"id": "drop",
+					"objectClass": "Sprite3",
+					"sid": 697600200691247,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"sid": 118636827502617
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 351547182096719
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 292891307350084,
+					"parameters": {
+						"variable": "Puntos",
+						"comparison": 0,
+						"value": "30"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 979285967966169,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 397373077379077,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 502720978318122
+		}
+	],
+	"sid": 872557597708727
+}

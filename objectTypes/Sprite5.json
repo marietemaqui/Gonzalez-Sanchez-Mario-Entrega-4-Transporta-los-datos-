@@ -1,0 +1,64 @@
+{
+	"name": "Sprite5",
+	"plugin-id": "Sprite",
+	"sid": 368424135790840,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 280086035230910
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 720,
+						"height": 720,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/webp",
+						"imageSpriteId": 532662,
+						"collisionPoly": {
+							"points": [
+								0.24583333333333332,
+								0.03611111111111111,
+								0.6527777777777778,
+								0.07083333333333333,
+								0.8958333333333334,
+								0.8888888888888888,
+								0.8958333333333334,
+								1,
+								0.15416666666666667,
+								0.9944444444444445,
+								0.10694444444444444,
+								0.9125,
+								0.11527777777777778,
+								0.5472222222222223
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 717393395864343,
+				"name": "paquete",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
