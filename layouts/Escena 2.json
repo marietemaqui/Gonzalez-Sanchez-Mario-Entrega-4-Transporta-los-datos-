@@ -64,10 +64,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 640,
-						"y": 456,
-						"width": 611,
-						"height": 525,
+						"x": 620,
+						"y": 421,
+						"width": 285.94399999999996,
+						"height": 250.79999999999995,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -92,8 +92,8 @@
 						"italic": false,
 						"color": [
 							0,
-							0,
-							0,
+							1,
+							0.43137254901960786,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -119,8 +119,8 @@
 					"world": {
 						"x": 122,
 						"y": 159,
-						"width": 1134,
-						"height": 367,
+						"width": 1019,
+						"height": 103,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -130,7 +130,8 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 0
+						"zElevation": 0,
+						"blendMode": "source-in"
 					}
 				}
 			],
