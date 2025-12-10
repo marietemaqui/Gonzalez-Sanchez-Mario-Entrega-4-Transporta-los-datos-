@@ -1,0 +1,12 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 675645225150142
+		}
+	],
+	"sid": 982653436810608
+}
